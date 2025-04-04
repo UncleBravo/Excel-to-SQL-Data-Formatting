@@ -1,6 +1,6 @@
 from openpyxl import load_workbook
 
-workbook = load_workbook(r'/Users/engelbertpereira/Downloads/New Norm.xlsx')
+workbook = load_workbook('New Norm.xlsx')
 sheets = workbook.worksheets
 passenger = sheets[1]
 ticket = sheets[2]
